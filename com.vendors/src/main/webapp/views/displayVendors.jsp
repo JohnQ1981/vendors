@@ -28,7 +28,8 @@
 <td> ${vendor.email}  </td>
 <td> ${vendor.phone}  </td>
 <td> ${vendor.address}  </td>
-
+<td><a href="deleteVendor?id=${vendor.id}">Delete Vendor</a></td>
+<td><a href="showUpdate?id=${vendor.id}">Edit/Update Vendor</a></td>
 </c:forEach>
 
 </tr>
